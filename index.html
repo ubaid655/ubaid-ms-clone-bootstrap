@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+  <title><img src="assets/css/img/LOGO.png" alt="">Microsoft</title>
   <head>
     <link rel="stylesheet" href="assets/css/style.css">
     <meta charset="utf-8">
@@ -9,104 +10,61 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg mx-2">
-          <a class="navbar-brand" href="#">
-            <img src="assets/css/img/LOGO.png" alt="">
-          </a>
-        </div>
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              All Microsoft
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li class="d-flex">
-                <ul>
-                  <li><p>Software</p></li>
-                  <li><a href="">Windows App</a></li>
-                  <li><a href="">AI</a></li>
-                  <li><a href="">OneDrive</a></li>
-                  <li><a href="">Outlook</a></li>
-                  <li><a href="">PowerPoint</a></li>
-                  <li><a href="">Publisher</a></li>
-                  <li><a href="">Teams</a></li>
-                </ul>
-
-                <ul>
-                  <li><p>PC &amp; Devices</p></li>
-                  <li><a href="">Windows App</a></li>
-                  <li><a href="">Xbox</a></li>
-                </ul>
-                <ul>
-                  <li><p>Entertainment</p></li>
-                  <li><a href="">Windows App</a></li>
-                  <li><a href="">AI</a></li>
-                  <li><a href="">OneDrive</a></li>
-                  <li><a href="">Outlook</a></li>
-                  <li><a href="">PowerPoint</a></li>
-                  <li><a href="">Publisher</a></li>
-                  <li><a href="">Teams</a></li>
-                </ul>
-
-                <ul>
-                  <li><p>Business</p></li>
-                  <li><a href="">Windows App</a></li>
-                  <li><a href="">AI</a></li>
-                  <li><a href="">OneDrive</a></li>
-                  <li><a href="">Outlook</a></li>
-                  <li><a href="">PowerPoint</a></li>
-                  <li><a href="">Publisher</a></li>
-                  <li><a href="">Teams</a></li>
-                </ul>
-                <ul>
-                  <li><p>Developer &amp; IT</p></li>
-                  <li><a href="">Windows App</a></li>
-                  <li><a href="">AI</a></li>
-                  <li><a href="">OneDrive</a></li>
-                  <li><a href="">Outlook</a></li>
-                  <li><a href="">PowerPoint</a></li>
-                  <li><a href="">Publisher</a></li>
-                  <li><a href="">Teams</a></li>
-                </ul>
-
-                <ul>
-                  <li><p>Other</p></li>
-                  <li><a href="">Windows App</a></li>
-                  <li><a href="">AI</a></li>
-                  <li><a href="">OneDrive</a></li>
-                </ul>
-
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Search</a><i class="fi fi-rr-search nav-icon"></i>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Cart</a><i class="fi fi-rr-shopping-cart nav-icon"></i>
-          </li>
-          <li class="nav-item no-underline">
-            <a class="nav-link" href="#">Sign in</a><i class="fi fi-rr-user nav-icon"></i>
-          </li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+    <img src="assets/css/img/LOGO.png" alt="">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
         </ul>
-      </nav>
-      <div class="carousel-inner mx-2">
-        <div class="carousel-item active">
-          <img src="assets/css/img/full1.webp" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/css/img/full2.webp" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-     </header>
+      </li>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleRide mx-4" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/css/img/full1.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/css/img/full2.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</header>
     <main>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3 ">
